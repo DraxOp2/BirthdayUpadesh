@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>You're Invited! 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 You're Invited!</h1>
+    <p><strong>April 19 · Saturday · After 6 PM</strong></p>
+    <p>📍 31 Smallwood Avenue, Homebush</p>
+    <p>🏠 Home 303 is calling all the party people!</p>
+
+    <div class="card">
+      <h2>RSVP Below 💌</h2>
+      <form action="https://formspree.io/f/mdkejnzg" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <select name="attendance" required>
+          <option value="">Will you attend?</option>
+          <option value="Yes">Yes! I’m coming 🎉</option>
+          <option value="No">Sorry, can’t make it 🙁</option>
+          <option value="Maybe">Maybe 🤔</option>
+        </select>
+        <textarea name="message" placeholder="Any message or dietary needs?"></textarea>
+        <button type="submit">Send RSVP 🚀</button>
+      </form>
+    </div>
+
+    <div class="footer">
+      Designed with ❤️ for a memorable celebration
+    </div>
+  </div>
+</body>
+</html>
